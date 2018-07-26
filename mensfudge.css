@@ -1,0 +1,453 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{margin: 0;padding: 0;}
+li{
+    list-style: none;
+}
+header{
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.trueheader{
+    position: relative;
+    width: 74%;
+    height: 90px;
+    margin: 0px auto;
+}
+
+#logo{
+    width: 250px;
+    padding-top:25px;
+
+}
+
+header .navbar{
+    position: absolute;
+    top: 50px;
+   left: 250px;
+   
+}
+
+
+.navbar ul li,.social ul li{
+    font-size: 1.2rem;
+    font-weight: bold;
+    list-style-type: none;
+    float: left;
+    padding-right: 5px;
+}
+.navbar ul li a,.social ul li a{
+    color: black;
+    padding: 5px 8px;
+}
+.navbar ul li a:hover,.social ul li:hover{
+    color: #999;
+}
+
+.switch{
+    height: 50px;
+    width: 300px;
+    
+    position: absolute;
+    top:0px;
+    right: 0.3%;
+}
+
+.switch a, .switch a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    }
+
+
+header .switch .fudge{
+        background-color:hotpink;
+        width:120px;
+        padding: 2px;
+        text-align: center;
+        float: right;
+        margin-right: 0px;
+    
+    }
+    
+header .switch .mensfudge{
+        background-color:lightgrey;
+        width: 120px;
+        padding:2px;
+        text-align: center;
+        float: right;
+        margin-right: 3px;
+}
+
+.social{
+    position: absolute;
+    top: 50px;
+    right: 0.1%;
+}
+
+.socialicon li{
+    padding: 2px;
+ 
+    margin-left:3px;
+}
+
+.main{
+    
+    margin: 0 auto;
+    width: 74%;
+    float: none;
+}
+
+
+
+.featured_post{
+    
+    padding: 30px 0px;
+   
+}
+
+.inner_featured_post{
+    overflow: auto;
+}
+.slider{
+    position: relative;
+    overflow: hidden;
+}
+
+.slider img{
+    display: block;
+    width: 100%;
+}
+
+.slider_menu ul li{
+box-sizing: border-box;
+height: 90px;
+    width: 25%;
+    padding: 0px;
+    font-size: 12px;
+    list-style: none;
+    float: left;
+    border-right: 1px dotted #aaaaaa;
+}
+.slider_menu ul li:first-child{
+     border-left: 1px dotted #aaaaaa;
+    }
+.slider_menu ul li a {
+    display: block;
+    height: 90px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.slider_menu ul li a p{
+    margin: 0;
+    padding: 1.0rem 0.5rem 0 0.93rem;
+    font-size: 0.97rem;
+    font-weight: bold;
+    color: #888;
+    letter-spacing: 0.05rem;
+}
+.slider_menu ul li a p span{
+    display: block;
+    padding-top: 0.5em;
+    font-size: 80%;
+    color: #259cc8;
+    font-weight: bold;
+}
+
+.slider_text{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.slider_text .date{
+    font-size: 14px;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.inner_slider_text{
+    position: relative;
+    margin: 95px 40px 30px 40px;
+   
+}
+.slider_text_title{
+    margin: 10px 60px 10px 0;
+    color: white;
+    font-size: 2.62rem;
+    font-weight: bold;
+}
+
+.read_more{
+    display: block;
+    width: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.1;
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    color: white;
+    letter-spacing: 0.05em;
+
+}
+.read_more i{
+    background-color: white;
+    border-radius: 0.5em;
+    color: #139bcd;/*换图标颜色 */
+    font-size: 35px;/*换图标大小 */
+    margin-bottom: 8px;
+    letter-spacing: 0;
+    line-height: 0.7;
+
+}
+
+.pickup{
+    
+    border-top: 4px double #aaaaaa;
+    padding: 30px 0;
+    
+    overflow: auto;
+}
+
+.inner_pickup{
+    
+    padding:0px 10px;
+    position: relative;
+ 
+}
+
+.pickup_head{
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.pickup_head h4,.latest_issue h5,.bnr_general .text h5{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 0.05em;
+}
+
+.pickup_head span,.latest_issue span,.bnr_general .text h5 span{
+    display: block;
+    margin-top: 0.2em;
+    letter-spacing: 0.1em;
+    color: #666;
+    font-size: 12px;
+}
+
+
+
+.order_mensfudge{
+    padding-top: 55px;
+    padding-right: 15px;
+    margin-right: 15px;
+    border-right: 1px dotted #aaaaaa;
+    width: 600px;
+    height: 195px;
+    float: left;
+}
+
+.issue{
+    position: relative;
+    float: left;
+    background-color: #eee;
+}
+
+.issue .title{
+    text-align: left;
+    padding: 0.8rem 0 0 0.95rem;
+    margin-bottom: 0.55rem;
+}
+.latest_issue h5{
+    font-size: 1.1rem;
+}
+
+.issue a{
+    display: block;
+    width: 10.95rem;
+    height: 15.6rem;
+    text-align: center;
+}
+
+.issue i{
+    position: absolute;
+    top:18px;
+    right: 16px;
+}
+
+.bnr_general a{
+    display: block;
+    box-sizing: border-box;
+    height: 15.6rem;
+    padding: 0;
+    border: 4px double #999;
+}
+
+.bnr_general{
+    float: right;
+    display: block;
+    width: 18rem;
+    height: 15.6rem;
+    
+}
+
+.bnr_general .title{
+    float: left;
+    padding: 1px;
+    color: white;
+    background-color: #139bcd;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 0.04rem;
+    text-align: center;
+    width: 5.9rem;
+    height: 5.9rem;
+    line-height: 5.9rem;
+    margin: 1.25rem 0 0.86rem 4%;
+}
+
+.bnr_general img{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.bnr_general .text{
+    display: block;
+    width: 55%;
+    margin: 1.25rem 0rem 0 7.5rem  ;
+}
+.bnr_general .text h5{
+    font-size: 1.1rem;
+    letter-spacing: 0;
+    line-height: 130%;
+}
+.bnr_general .text h5 span{
+    font-weight: normal;
+    display: inline;
+    letter-spacing: 0;
+}
+
+.bnr_general .text h5 .present105{
+    display: inline-block;
+    font-size: 70%;
+    color: #0f9fd3;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    position: relative;
+    right: 6px;
+}
+
+.setArrow{
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    left: 1px;
+    border-style: solid;
+            border-width: 7px;
+            border-color: transparent transparent transparent  #0f9fd3;
+            width: 0px;
+            height: 0px;
+
+}
+
+
+footer{
+    color: white;
+    height: 250px;
+    background-color: #999;
+    width: 100%;
+    
+    padding: 0;
+    
+}
+
+.inner_footer{
+    width: 74%;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contact ul li{
+    float: left;
+}
+
+.copyright_logo{
+    position: absolute;
+    bottom: 30px;
+}
+
+.contact{
+    position: absolute;
+    left: 193px;
+    bottom:50px;
+}
+.copyright_info{
+    position: absolute;
+    left: 200px;
+    bottom: 27px;
+    font-size: 0.8rem;
+    line-height: 1;
+    letter-spacing: 0.05em;
+}
+
+.contact a,.contact a:visited{
+    letter-spacing: 0.05em;
+    font-size: 0.75rem;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1px 7px ;
+    
+}
+.contact ul li:nth-child(1){
+    border-right: 1px solid white;
+}
+
+.information h5{
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+.information span{
+font-size: 0.7rem;
+letter-spacing: 0.05em;
+}
+
+.schedule a{
+    text-decoration: none;
+    color: white;
+    font-size: normal;
+    
+}
+.information_text{
+    margin-top: 30px;
+    float: left;
+    text-align: right;
+}
+
+.schedule{
+    display: block;
+    float: left;
+    height: 110px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-left: 3px solid white;
+}
