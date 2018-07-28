@@ -234,7 +234,7 @@ height: 90px;
     left: 10px;
 }
 
-.pickup_head h4,.latest_issue h5,.bnr_general .text h5{
+.pickup_head h4,.latest_issue h5,.bnr_general .text h5,.latest_head h4{
     color: black;
     font-size: 1.5rem;
     font-weight: bold;
@@ -243,7 +243,7 @@ height: 90px;
     letter-spacing: 0.05em;
 }
 
-.pickup_head span,.latest_issue span,.bnr_general .text h5 span{
+.pickup_head span,.latest_issue span,.bnr_general .text h5 span, .latest_head span{
     display: block;
     margin-top: 0.2em;
     letter-spacing: 0.1em;
@@ -458,3 +458,92 @@ letter-spacing: 0.05em;
     padding-left: 20px;
     border-left: 3px solid white;
 }
+
+.latest{
+    border-top: 4px double #999;
+    padding: 30px 0;
+    overflow: auto;
+   
+}
+.inner_latest{
+
+    padding: 0 10px;
+    overflow: auto;
+    
+
+    
+
+}
+.latest_head{
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+.News{
+    position: relative;
+    box-sizing: border-box;
+    border-left: 1px dotted #999;
+    padding: 10px 20px;
+    float: left;
+    width: 33.2%;
+  
+    margin-top:30px;
+  
+    
+}
+.latest_news ul{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.latest_news ul li{
+    float: left;
+    padding: 0.15em 0.7em;
+    letter-spacing: 0.06em;
+}
+
+.news_title{
+    display: block;
+    line-height: 1.1;
+    height:2.2em;
+    max-height: 2.2em;
+    margin: 0 0 50px;
+    font-size: 1.4rem;
+}
+
+a.latest_news{
+    position: relative;
+}
+
+ul.tag{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+.News img{
+    width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.latest::after{
+    content:".";
+    height:0;
+    visibility:hidden;
+    display:block;
+    clear:both;
+ }
+
+ .s_News{
+    position: relative;
+    box-sizing: border-box;
+    border-left: 1px dotted #999;
+    padding: 10px 20px;
+    float: left;
+    width: 25%;
+  
+    margin-top:30px;}
