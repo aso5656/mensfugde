@@ -511,6 +511,9 @@ letter-spacing: 0.05em;
     max-height: 2.2em;
     margin: 0 0 50px;
     font-size: 1.4rem;
+    color: black;
+    font-weight: bold;
+    overflow: hidden;
 }
 
 a.latest_news{
@@ -538,6 +541,8 @@ ul.tag{
     clear:both;
  }
 
+
+
  .s_News{
     position: relative;
     box-sizing: border-box;
@@ -547,3 +552,56 @@ ul.tag{
     width: 25%;
   
     margin-top:30px;}
+
+ul.date_news{
+    font-size: 12px;
+    font-weight: bold;
+    border-left:1px solid #999 ;
+    border-right:  1px solid #999;
+}
+
+
+ul.date_news li.date{
+    border-right: 1px solid #999;
+    color: black;
+    
+}
+ul.date_news li.news{
+    color: #139bcd;
+}
+ul.tag{
+    position: absolute;
+    margin-top: 10px;
+    width: 85%;
+    height: 25px;
+    overflow: hidden;
+    white-space: nowrap;/*不换行*/
+}
+
+ul.tag::after{ /*选一块渐变透明（不透明————半透明--全白）的区域盖住最后7%区域实现渐变*/
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 7%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(to right,rgba(255,255,255,0), rgba(255,255,255,0.5),#ffffff);
+
+
+}
+ul.tag li{
+    display: inline-block;
+    margin-right: 5px;
+    border:1px solid #ccc;
+    background: white;
+    padding: 0.2em 0.5em;
+    font-size: 12px;
+    color: #999;
+    font-weight: bold;
+    }
+
+ul.tag li a {
+    text-decoration: none;
+    color: #999;
+}
