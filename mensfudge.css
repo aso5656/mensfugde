@@ -516,16 +516,15 @@ letter-spacing: 0.05em;
     overflow: hidden;
 }
 
+.s_News .news_title{
+    font-size: 1.2rem;
+}
+
 a.latest_news{
     position: relative;
 }
 
-ul.tag{
-    position: absolute;
-    left: 20px;
-    top: 100px;
-}
-.News img{
+.News img,.s_News img{
     width: 100%;
 }
 
@@ -553,6 +552,8 @@ ul.tag{
   
     margin-top:30px;}
 
+
+
 ul.date_news{
     font-size: 12px;
     font-weight: bold;
@@ -571,7 +572,9 @@ ul.date_news li.news{
 }
 ul.tag{
     position: absolute;
-    margin-top: 10px;
+    position: absolute;
+    left: 20px;
+    top: 100px;
     width: 85%;
     height: 25px;
     overflow: hidden;
@@ -605,3 +608,4 @@ ul.tag li a {
     text-decoration: none;
     color: #999;
 }
+
