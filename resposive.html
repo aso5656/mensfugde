@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Resposive sidemenu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css"  href="main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlidemenu()" >
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>
+        </span>
+        <ul class="navbar-nav">
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">Clip</a></li>
+            <li><a href="#">Column</a></li>
+            <li><a href="#">TBD</a></li>
+            <li><a href="#">Magazine</a></li>
+            <li><a href="#">Present</a></li>
+        </ul>
+    </nav>
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlidemenu()" >&times;</a>
+        <a href="#">Feature</a>
+        <a href="#">Clip</a>
+        <a href="#">Column</a>
+        <a href="#">Magazine</a>
+        <a href="#">TBD</a>
+        <a href="#">Present</a>
+    </div>
+    <div id="main">
+        <h1>Resposive</h1>
+    </div>
+
+    <script>
+      function openSlidemenu(){
+          document.getElementById('side-menu').style.width = '250px';
+          document.getElementById('main').style.marginLeft = '250px';
+      }
+
+      function closeSlidemenu(){
+          document.getElementById('side-menu').style.width = '0';
+          document.getElementById('main').style.marginLeft = '0';
+      }
+
+    </script>
+</body>
+</html>

@@ -17,7 +17,7 @@ header{
 
 .trueheader{
     position: relative;
-    width: 74%;
+    width: 1200px;
     height: 90px;
     margin: 0px auto;
 }
@@ -102,7 +102,7 @@ header .switch .mensfudge{
 .main{
     
     margin: 0 auto;
-    width: 74%;
+    width: 1200px;
     float: none;
 }
 
@@ -384,7 +384,7 @@ footer{
 }
 
 .inner_footer{
-    width: 74%;
+    width: 1200px;
     height: 250px;
     margin: 0 auto;
     position: relative;
@@ -466,7 +466,9 @@ letter-spacing: 0.05em;
    
 }
 .inner_latest{
-
+    border-left:  1px dotted #999 ;
+    border-right:  1px dotted #999;
+    
     padding: 0 10px;
     overflow: auto;
     
@@ -485,15 +487,21 @@ letter-spacing: 0.05em;
 .News{
     position: relative;
     box-sizing: border-box;
-    border-left: 1px dotted #999;
+    border-right: 1px dotted #999;
     padding: 10px 20px;
     float: left;
     width: 33.2%;
-  
     margin-top:30px;
-  
-    
 }
+
+.News:nth-child(3n+4){
+    border-right: none;
+}/*父级元素 父级元素是inner_latest 的第3n+4个 News 4,7*/
+
+.s_News:nth-child(4n+11){
+    border-right: none;
+}  /*父级元素的第4n+11个 s_News 11,15*/
+
 .latest_news ul{
     display: inline-block;
     margin-bottom: 0.5rem;
@@ -520,8 +528,13 @@ letter-spacing: 0.05em;
     font-size: 1.2rem;
 }
 
-a.latest_news{
-    position: relative;
+a.latest_news {
+   display: block;
+}
+
+.News:hover,.s_News:hover{
+    opacity: 1;
+    background: transparent url(images/mf_bg_stripe9x9.png) top left repeat;
 }
 
 .News img,.s_News img{
@@ -545,12 +558,13 @@ a.latest_news{
  .s_News{
     position: relative;
     box-sizing: border-box;
-    border-left: 1px dotted #999;
+    border-right: 1px dotted #999;
     padding: 10px 20px;
     float: left;
     width: 25%;
   
     margin-top:30px;}
+
 
 
 
