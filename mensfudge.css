@@ -377,14 +377,13 @@ footer{
     color: white;
     height: 250px;
     background-color: #999;
-    width: 1200px;
     
     padding: 0;
     
 }
 
 .inner_footer{
-    width: 100px;
+    width: 1200px;
     height: 250px;
     margin: 0 auto;
     position: relative;
