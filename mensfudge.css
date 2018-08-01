@@ -375,9 +375,8 @@ height: 90px;
 
 .pick-wrapper{
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    
-    grid-gap: 25px;
+    grid-template-columns: auto auto auto;
+grid-gap: 25px;
 }
     
 
@@ -640,7 +639,14 @@ ul.tag li a {
     color: #999;
 }
 
+.trueheader span.open-slide, .trueheader .side-nav{
+    display: none;
+}
+
 @media(max-width:1200px){
+    .trueheader span.open-slide, .trueheader .side-nav{
+        display: none;
+    }
     header,.main,footer{
         width: 100%;
     }
@@ -659,7 +665,30 @@ ul.tag li a {
 }
 
 @media(max-width:980px){
-    .slider_menu ul{
+    .content{
+        padding: 0 10px;
+    }
+.trueheader{
+    height: 50px;
+}
+.social,.switch{
+    display: none;
+}
+
+
+
+.trueheader #logo{
+    position: absolute;
+    left: 3vw;
+    width: 40vw;
+    top: 10px;
+    padding: 0;
+}
+.trueheader #logo img{
+    width: 100%;
+}
+
+.slider_menu ul{
         list-style: none;
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -668,18 +697,143 @@ ul.tag li a {
     border: 1px dotted #999;
 }
 
+.slider_menu ul li a p{
+    font-size: 0.8rem;
+}
+
+.inner_slider_text{
+    margin: 3rem 2vw 2.5vw 3vw;
+}
+.inner_slider_text .slider_text_title{
+    font-size: 1.5rem;
+}
+.read_more{
+    font-size: 0.9rem;
+    bottom: 5%;
+}
+
 .navbar{
     display: none;
 }
+
+.inner_latest,.inner_pickup{
+    padding: 0;
+}
 .wrapper,.s-wrapper{
     grid-template-columns: 1fr 1fr;
+    
+    border: none;
+
 }
 
 .order_mensfudge{
     grid-column: 1/4;
     height: auto;
+    border: none;
 }
 
+.News, .s_News{
+    padding: 2px 4px;
+    border:none;
+}
 
+.News .news_title, .s_News .news_title{
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.News ul.tag, .s_News ul.tag{
+   display: none;
+}
+
+.News ul.date_news , .s_News ul.date_news {
+    font-size: 5px;
+    border: none;
+    margin: 0 auto 5px auto;
+ 
+}
+
+.News ul.date_news li, .s_News ul.date_news li{
+    letter-spacing: normal;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+.trueheader span.open-slide {
+    display: block;
+   
+}
+.trueheader span.open-slide a{
+    position: absolute;
+    right: 0;
+    top: 5%;
+    display: block;
+    
+    padding: 10px 20px;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+} 
+
+.trueheader .side-nav{
+    display: block;
+    width: 0;
+    height: 50%;
+    position: fixed;
+    z-index: 1;
+    top:50px;
+    right: 0;
+    background: rgba(255,255,255,0.85);
+    transition: 1s;
+
+}
+
+.side-nav a {
+    font-size: 1.3rem;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.side-nav .btn-close{
+    font-size: 50px;
+    position: absolute;
+    top: 5px;
+    left: 150px;
+}
+
+.pick-wrapper{
+    display: grid;
+    grid-template-columns: 1fr  ;
+
+
+}
+.order_mensfudge{
+    grid-column: 1/2;
+    padding-right: 0;
+}
+
+.inner_footer{
+    padding: 0 10px;
+}
+.information ul.schedule{
+    margin: 10px 0 0 0;
+    padding: 0;
+    height: auto;
+    border: none;
+}
+
+.copyright_logo{
+    bottom: 40px;
+}
+.copyright_info{
+    bottom: 10px;
+    left: 10px;
+}
+.contact{
+    bottom: 40px;
+}
 
 }

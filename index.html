@@ -9,11 +9,34 @@
     <link rel="stylesheet" type="text/css" media="screen" href="mensfudge.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 </head>
+<script>
+    function openSlidemenu(){
+        document.getElementById("side-menu").style.width="200px";
+    }
+
+    function closeSlidemenu(){
+        document.getElementById("side-menu").style.width="0px";
+    }
+</script>
 <body>
     <header>
         <div class="trueheader">
             <div id="logo">
                 <a class="logolink" href="http://mensfudge.jp/"><img src="images/logo.png"></a>
+            </div>
+            <span class="open-slide">
+                <a href="#" onclick="openSlidemenu()" >
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+            </span>
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSlidemenu()" >&times;</a>
+                <a href="#">Feature</a>
+                <a href="#">Clip</a>
+                <a href="#">Column</a>
+                <a href="#">Magazine</a>
+                <a href="#">TBD</a>
+                <a href="#">Present</a>
             </div>
             <div class="navbar">
                 <ul>
