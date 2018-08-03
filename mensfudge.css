@@ -821,8 +821,15 @@ ul.tag li a {
     right: 20vw;
 }
 
+
 .social ul li a {
     padding: 2px 2px;
+    font-size: 5vw;
+    width: 8vw;
+    height: 9vw;
+}
+.social ul li a:hover{
+    background: rgba(180, 176, 176, 0.479);
 }
 
 .pick-wrapper{
