@@ -150,6 +150,11 @@ height: 90px;
     text-decoration: none;
 }
 
+.slider_menu ul li a:hover{
+    background: url(images/mf_slider_current.png) repeat-x bottom left;
+    opacity: 1;
+}
+
 .slider_menu ul li a p{
     margin: 0;
     padding: 1.0rem 0.5rem 0 0.93rem;
@@ -171,7 +176,10 @@ height: 90px;
     bottom: 0px;
     left: 0px;
     width: 100%;
+    background: url(images/mf_slider_mask.png) repeat-x top left;
+    
 }
+
 
 .slider_text .date{
     font-size: 14px;
