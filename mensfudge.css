@@ -672,7 +672,7 @@ ul.tag li a {
 .trueheader{
     height: 13vw;
 }
-.social,.switch{
+.switch{
     display: none;
 }
 
@@ -807,6 +807,14 @@ ul.tag li a {
     left: 150px;
     padding: 5px 5px;
     height: 5vh;
+}
+.social{
+    top: 3vw;
+    right: 20vw;
+}
+
+.social ul li a {
+    padding: 2px 2px;
 }
 
 .pick-wrapper{
