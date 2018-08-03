@@ -309,6 +309,7 @@ height: 90px;
     display: block;
     width: 18.75rem;
     height: 15.6rem;
+    box-shadow: 5px 5px 10px #999;
     
 }
 
@@ -669,7 +670,7 @@ ul.tag li a {
         padding: 0 10px;
     }
 .trueheader{
-    height: 50px;
+    height: 13vw;
 }
 .social,.switch{
     display: none;
@@ -681,7 +682,7 @@ ul.tag li a {
     position: absolute;
     left: 3vw;
     width: 40vw;
-    top: 10px;
+    top: 3vw;
     padding: 0;
 }
 .trueheader #logo img{
@@ -765,12 +766,12 @@ ul.tag li a {
 .trueheader span.open-slide a{
     position: absolute;
     right: 0;
-    top: 5%;
+    top: 1vw;
     display: block;
     
     padding: 10px 20px;
     color: black;
-    font-size: 25px;
+    font-size: 7vw;
     text-decoration: none;
     text-align: center;
 } 
@@ -781,10 +782,11 @@ ul.tag li a {
     height: 50%;
     position: fixed;
     z-index: 1;
-    top:50px;
+    top:13vw;
     right: 0;
     background: rgba(255,255,255,0.85);
-    transition: 1s;
+    transition:ease-out 1s;
+    padding-top: 5vh;
 
 }
 
@@ -799,9 +801,12 @@ ul.tag li a {
 
 .side-nav .btn-close{
     font-size: 50px;
+    display: block;
     position: absolute;
-    top: 5px;
+    top: 0;
     left: 150px;
+    padding: 5px 5px;
+    height: 5vh;
 }
 
 .pick-wrapper{
