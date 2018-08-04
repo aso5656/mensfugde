@@ -8,6 +8,15 @@
     <link rel="stylesheet" type="text/css" media="screen" href="collection.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <title>mens's FUDGE</title>
+    <script>
+            function openSlidemenu(){
+                document.getElementById("side-menu").style.width="200px";
+            }
+        
+            function closeSlidemenu(){
+                document.getElementById("side-menu").style.width="0px";
+            }
+    </script>
 </head>
 <body>
     <header>
@@ -35,7 +44,20 @@
                     <li><a href="www.facebook.com/Mensfudge"><i class="fab fa-facebook-square"></i></a> </li>
                     <li><a href="instagram.com/mensfudge/"><i class="fab fa-instagram"></i></a> </li>
               </ul>
-          
+              <span class="open-slide">
+                    <a href="#" onclick="openSlidemenu()" >
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </a>
+                </span>
+                <div id="side-menu" class="side-nav">
+                    <a href="#" class="btn-close" onclick="closeSlidemenu()" >&times;</a>
+                    <a href="collection.html">Feature</a>
+                    <a href="#">Clip</a>
+                    <a href="#">Column</a>
+                    <a href="#">Magazine</a>
+                    <a href="#">TBD</a>
+                    <a href="#">Present</a>
+                </div>
         </div>
 
     </header>
@@ -52,95 +74,95 @@
                 <li><a href="collection.html">FEATURE</a></li>
                 <li><a href="#">feature</a></li>
             </ul>
-        <div class="wrapper">
-            <div class="latest-post">
-                   
-                <div class="posts">
-                        <a href="http://mensfudge.jp/collection/brand-pick-up-vol-101-gucci">
-                            <div class="post-dates">28.JUN.2018</div> 
-                            <h4>BRAND PICK UP!<span>GUCCI</span></h4>
-                            
-                            <img src="images/mf_slider_brand_101-225x140.jpg">   
-                        </a>
+            <div class="wrapper">
+                <div class="latest-post">
+                    
+                    <div class="posts">
+                            <a href="http://mensfudge.jp/collection/brand-pick-up-vol-101-gucci">
+                                <div class="post-dates">28.JUN.2018</div> 
+                                <h4>BRAND PICK UP!<span>GUCCI</span></h4>
+                                
+                                <img src="images/mf_slider_brand_101-225x140.jpg">   
+                            </a>
+                    </div>
+                    <div class="posts">
+                            <a href="http://mensfudge.jp/collection/brand-pick-up-vol-101-gucci">
+                                <div class="post-dates">26.JUN.2018</div> 
+                                <h4>BRAND PICK UP!<span>DIRES VAN NOTEN</span></h4>
+                                
+                                <img src="http://mensfudge.jp/wp-content/uploads/26181309/mf_slider_brand_103-225x140.jpg">   
+                            </a>
+                    </div>
+                    <div class="posts">
+                            <a href="http://mensfudge.jp/collection/brand-pick-up-vol-101-gucci">
+                                <div class="post-dates">28.JUN.2018</div> 
+                                <h4>BRAND PICK UP!<span>MONCLER</span></h4>
+                                
+                                <img src="http://mensfudge.jp/wp-content/uploads/24232525/mf_slider_brand_99-225x140.jpg">   
+                            </a>
+                    </div>
+                    <div class="posts">
+                            <a href="http://mensfudge.jp/collection/brand-pick-up-vol-101-gucci">
+                                <div class="post-dates">28.JUN.2018</div> 
+                                <h4>COFFEE and CIGARETTES<span><br></span></h4>
+                                
+                                <img src="http://mensfudge.jp/wp-content/uploads/23181326/mf_cc_70-225x140.jpg">   
+                            </a>
+                    </div>
+                    <div class="posts">
+                            <a href="http://mensfudge.jp/collection/brand-pick-up-vol-101-gucci">
+                                <div class="post-dates">28.JUN.2018</div> 
+                                <h4>BRAND PICK UP!<span>rehacer</span></h4>
+                                
+                                <img src="http://mensfudge.jp/wp-content/uploads/23122940/mf_brand_69_top-225x140.jpg">   
+                            </a>
+                    </div>
+                    <div class="posts">
+                            <a href="http://mensfudge.jp/collection/brand-pick-up-vol-101-gucci">
+                                <div class="post-dates">28.JUN.2018</div> 
+                                <h4>BRAND PICK UP!<span>Marni</span></h4>
+                                
+                                <img src="http://mensfudge.jp/wp-content/uploads/23180721/mf_brand_68_top-225x140.jpg">   
+                            </a>
+                    </div>
+                    
+                    
                 </div>
-                <div class="posts">
-                        <a href="http://mensfudge.jp/collection/brand-pick-up-vol-101-gucci">
-                            <div class="post-dates">26.JUN.2018</div> 
-                            <h4>BRAND PICK UP!<span>DIRES VAN NOTEN</span></h4>
+                <div class="aside">
+                    <div class="issue">
+                        <a href="http://mensfudge.jp/magazine/%e3%80%8amens-fudge%e3%80%8b-2018-08-vol-105">
+                            <div class="image"><img src="images/mensfudge2018_08_105-145x182.jpg">
+                            </div>
+                            <div class="Text">
+                                    <h4>Latest Issue</h4>
+                                    <span class='text'>最新の men's FUDGE</span>
+                                    <p>mens' FUDGE<br>
+                                    <span class="month">2018年08月号</span>
+                                    </p>
+                                    <p>2018.06.23 発売<br>
+                                        680 円(税込)
+                                    </p>
+                                    <i class="fa fa-play-circle"></i>
+                            </div>
                             
-                            <img src="http://mensfudge.jp/wp-content/uploads/26181309/mf_slider_brand_103-225x140.jpg">   
                         </a>
-                </div>
-                <div class="posts">
-                        <a href="http://mensfudge.jp/collection/brand-pick-up-vol-101-gucci">
-                            <div class="post-dates">28.JUN.2018</div> 
-                            <h4>BRAND PICK UP!<span>MONCLER</span></h4>
-                            
-                            <img src="http://mensfudge.jp/wp-content/uploads/24232525/mf_slider_brand_99-225x140.jpg">   
+                    </div>
+                    <div class="pr-fudge">
+                        <a href="https://fudge.formstack.com/forms/mens_fudge_201808_vol105_present">
+                            <div class="present">
+                                PRESENT
+                            </div>
+                            <div class="reader-info">
+                                    <h4>men's FUDGE</h4>
+                                    <span class="release">2018.08<br>
+                                        vol.105 読者プレゼント
+                                    </span>
+                                    <span class="enlist">応募はこちらから</span> 
+                            </div>   
                         </a>
+                    </div>
                 </div>
-                <div class="posts">
-                        <a href="http://mensfudge.jp/collection/brand-pick-up-vol-101-gucci">
-                            <div class="post-dates">28.JUN.2018</div> 
-                            <h4>COFFEE and CIGARETTES<span><br></span></h4>
-                            
-                            <img src="http://mensfudge.jp/wp-content/uploads/23181326/mf_cc_70-225x140.jpg">   
-                        </a>
-                </div>
-                <div class="posts">
-                        <a href="http://mensfudge.jp/collection/brand-pick-up-vol-101-gucci">
-                            <div class="post-dates">28.JUN.2018</div> 
-                            <h4>BRAND PICK UP!<span>rehacer</span></h4>
-                            
-                            <img src="http://mensfudge.jp/wp-content/uploads/23122940/mf_brand_69_top-225x140.jpg">   
-                        </a>
-                </div>
-                <div class="posts">
-                        <a href="http://mensfudge.jp/collection/brand-pick-up-vol-101-gucci">
-                            <div class="post-dates">28.JUN.2018</div> 
-                            <h4>BRAND PICK UP!<span>Marni</span></h4>
-                            
-                            <img src="http://mensfudge.jp/wp-content/uploads/23180721/mf_brand_68_top-225x140.jpg">   
-                        </a>
-                </div>
-                
-                
             </div>
-            <div class="aside">
-                <div class="issue">
-                    <a href="http://mensfudge.jp/magazine/%e3%80%8amens-fudge%e3%80%8b-2018-08-vol-105">
-                        <div class="image"><img src="images/mensfudge2018_08_105-145x182.jpg">
-                        </div>
-                        <div class="Text">
-                                <h4>Latest Issue</h4>
-                                <span class='text'>最新の men's FUDGE</span>
-                                <p>mens' FUDGE<br>
-                                <span class="month">2018年08月号</span>
-                                </p>
-                                <p>2018.06.23 発売<br>
-                                    680 円(税込)
-                                </p>
-                                <i class="fa fa-play-circle"></i>
-                        </div>
-                        
-                    </a>
-                </div>
-                <div class="pr-fudge">
-                    <a href="https://fudge.formstack.com/forms/mens_fudge_201808_vol105_present">
-                        <div class="present">
-                            PRESENT
-                        </div>
-                        <div class="reader-info">
-                                <h4>men's FUDGE</h4>
-                                <span class="release">2018.08<br>
-                                     vol.105 読者プレゼント
-                                </span>
-                                <span class="enlist">応募はこちらから</span> 
-                        </div>   
-                    </a>
-                </div>
-            </div>
-        </div>
           
         </div>
     </main>
