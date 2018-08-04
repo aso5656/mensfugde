@@ -547,8 +547,11 @@ a.latest_news {
 }
 
 .News:hover,.s_News:hover{
-    opacity: 1;
     background: transparent url(images/mf_bg_stripe9x9.png) top left repeat;
+}
+
+.News:hover img,.s_News:hover img{
+    opacity: 0.8;
 }
 
 .News img,.s_News img{
@@ -774,14 +777,16 @@ ul.tag li a {
 .trueheader span.open-slide a{
     position: absolute;
     right: 0;
-    top: 1vw;
     display: block;
-    
-    padding: 10px 20px;
+    width: 13vw;
+    height: 13vw;
+    line-height: 13vw;
+    padding: 0;
     color: black;
-    font-size: 7vw;
+    font-size: 6vw;
     text-decoration: none;
     text-align: center;
+    border-left: 1px solid #999;
 } 
 
 .trueheader .side-nav{
