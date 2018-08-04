@@ -260,7 +260,7 @@ main .content{
 
 .latest-post{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     padding: 30px 0;
 }
 
@@ -534,7 +534,7 @@ ul.contact li a {
     }
 
     .issue a  h4{
-        font-size: 3vw;
+        font-size: 5vw;
 
     }
 
@@ -542,7 +542,8 @@ ul.contact li a {
         font-size: 2vw;
     }
     .issue a p{
-        margin: 1vw 0;
+        margin-top: 1vw;
+        margin-bottom: 0;
         font-size: 2vw;
     }
     .issue i{
@@ -593,6 +594,7 @@ ul.contact li a {
         font-size: 1vw;
         left: 2vw;
         bottom: .5vw;
+        letter-spacing: 0.01em;
         
     }
 
