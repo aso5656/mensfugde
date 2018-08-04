@@ -577,6 +577,7 @@ ul.contact li a {
 
     footer .container{
         height: 13vw;
+        padding: 0 2vw;
     }
 
     .footer-logo{
@@ -590,8 +591,9 @@ ul.contact li a {
 
     .copyright{
         font-size: 1vw;
-        left: 30px;
+        left: 2vw;
         bottom: .5vw;
+        
     }
 
     ul.contact{
