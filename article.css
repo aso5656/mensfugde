@@ -68,9 +68,10 @@
     }
 
     .posts a h4{
-        margin:5vw 0;
-        margin-bottom: 4vw;
+        overflow: hidden;
+        margin:7vw 0;
         white-space: normal;
-        font-size: 90%;
+        font-size: 1rem;
+
     }
 }
